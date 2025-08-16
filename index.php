@@ -20,12 +20,12 @@ session_start(); // Start the session at the very beginning
     <form action="auth.php" method="post">
         <h2>Inventory Login</h2>
 
-        <?php
+        // <?php
         // Display an error message if login failed
-        if (isset($_GET['error'])) {
-            echo '<p class="error">Wrong username or password!</p>';
-        }
-        ?>
+        //if (isset($_GET['error'])) {
+        //    echo '<p class="error">Wrong username or password!</p>';
+        //}
+        //?>
 
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
